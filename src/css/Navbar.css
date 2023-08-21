@@ -1,0 +1,127 @@
+.navbar-container {
+    padding: 1rem 2rem;
+    padding-right: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+    background: white;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+}
+
+.navbar-logo {
+    font-family: 'Courier Prime', monospace;
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: black;
+}
+
+.navbar-links {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.navbar-container img {
+    display: none;
+}
+
+.navbar-links * {
+    color: black;
+    transition: 0.2s ease-in-out;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    padding-bottom: 5px;
+    text-decoration: none;
+}
+
+.navbar-links a::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.navbar-links a:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+.expanded-links-container {
+    padding: 10rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: white;
+    height: 100vh;
+    width: 100vw;
+    z-index: 5;
+    position: relative;
+}
+
+.expanded-links-container * {
+    color: black;
+    transition: 0.2s ease-in-out;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    padding-bottom: 5px;
+    text-decoration: none;
+    font-size: 1.6rem;
+}
+
+.expanded-links-container a::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.expanded-links-container a:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+.expanded-links-container img {
+    position: absolute;
+    top: 2rem;
+    right: 1rem;
+}
+
+@media (max-width: 650px) {
+    .navbar-links {
+        display: none;
+    }
+
+    .navbar-container img {
+        display: inline;
+        width: 2rem;
+        cursor: pointer;
+    }
+
+    .navbar-container {
+        padding-right: 2rem;
+    }
+}
+
+@media (max-width: 500px) {
+    .navbar-container {
+        padding-left: 1rem;
+    }
+}
