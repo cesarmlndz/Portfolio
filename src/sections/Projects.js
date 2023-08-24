@@ -11,18 +11,18 @@ export default function Projects() {
     const projects = [
         {
             title: "GoodNews!",
-            desription: "Full-Stack application using the PERN Stack (PostgreSQL, ExpressJS, React, NodeJs). GoodNews lets users track their job applications in an organized manner, as well view analytics regarding their applications with detailed charts and percentages using ChartJS.",
+            desription: "Full-Stack application using the PERN Stack (PostgreSQL, ExpressJS, React, NodeJs). Authentication powered by Firebase. GoodNews! lets users track their job applications in an organized manner, as well view analytics regarding their applications with detailed charts and percentages using ChartJs.",
             imageURL: goodnewsimg,
             liveURL: "https://goodnews-bay.vercel.app/"
         },
         {
-            title: "FindMyRoommate!",
+            title: "findmyroommate!",
             desription: "Full-Stack React and Firebase web application for college students to find roommates easily. Users can connect with others in need of roommates by posting their housing situation on the site.",
             imageURL: findmyroommateImg,
             liveURL: "https://findmyroommate-b2820.web.app/"
         },
         {
-            title: "UNOWFLOW WEB3",
+            title: "UNOFLOW WEB3",
             desription: "React web application that splits into two services: NFT Marketplace & Crypto Tracker. Users can browse, track, and purchase the hottest NFT’s and crypto currencies on the market.",
             imageURL: unoflowImg,
             liveURL: "https://unofloweb3.com/"
@@ -30,7 +30,7 @@ export default function Projects() {
         },
         {
             title: "Wildfire-AI",
-            desription: "Space-Eyes, the company where I interned, will soon be launching Wildfire-AI. This is a wildfire detection and prediction service using advanced machine learning algorithms. My task was to develop a web application for a landing page using HTML, CSS, JavaScript, ChartJS, and Material UI. ",
+            desription: "Space-Eyes, the company where I interned, will soon be launching Wildfire-AI. This is a wildfire detection and prediction service using advanced machine learning algorithms. My task was to develop a web application for a landing page using HTML, CSS, JavaScript, ChartJs, and Material UI. ",
             imageURL: wildfireAIImg,
             liveURL: "http://wildfire-ai.com/"
 
