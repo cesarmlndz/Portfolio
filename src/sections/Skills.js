@@ -18,7 +18,7 @@ export default function Skills() {
         },
         {
             title: "Data Science / Machine Learning",
-            skills: ["Pandas" , "NumPy", "Scikit-learn", "PyCharm", "Jupyter"],
+            skills: ["Pandas" , "NumPy", "Scikit-learn", "PySpark", "Keras", "TensorFlow", "Jupyter"],
             imageUrl: brainImg
         }
     ];
