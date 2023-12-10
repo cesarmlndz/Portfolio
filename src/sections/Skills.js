@@ -8,7 +8,7 @@ export default function Skills() {
     const skillSections = [
         {
             title: "Web-Development",
-            skills: ["React", "HTML", "CSS", "NodeJs", "ExpressJs", "Git & Github", "AWS", "PostgreSQL", "Google Firebase", "mySQL", "MongoDB"],
+            skills: ["React", "HTML", "CSS", "NodeJs", "ExpressJs", "Git & GitHub", "AWS", "PostgreSQL", "Google Firebase", "mySQL", "MongoDB"],
             imageUrl: webdevImg
         },
         {
