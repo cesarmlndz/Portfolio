@@ -14,6 +14,7 @@ export default function Contact() {
         .then((result) => {
             alert("You successfully sent Cesar a message! He will reply as as soon as possible.")
         }, (error) => {
+            console.log(error)
             alert("Please try sending again.")
         });
     };
@@ -21,13 +22,13 @@ export default function Contact() {
         <div className='contact-section' id='jump-to-contact'>
             <h1 className='contact-section-title'>Contact</h1>
             <div className='email-container'>
-                <img src={emailImg}/>
+                <img src={emailImg} alt='email'/>
                 <p>cesarf.melendez@gmail.com</p>
             </div>
             <form className='contact-container' ref={form} onSubmit={sendEmail}>
                 <div className='send-message-title'>
                     <h1>Send me a message! </h1>
-                    <img src={waveImg}/>
+                    <img src={waveImg} alt='wave'/>
                 </div>
                 <input placeholder='Name' type="text" name="user_name" required/>
                 <input placeholder='Email' type="email" name="user_email" required/>
