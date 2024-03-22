@@ -1,4 +1,4 @@
-bimport React from 'react';
+import React from 'react';
 import '../css/Skills.css'
 import webdevImg from '../assets/webdevImg.png'
 import brainImg from '../assets/brainImg.png'
