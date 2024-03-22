@@ -7,8 +7,8 @@ import JSImg from '../assets/JSImg.png'
 export default function Skills() {    
     const skillSections = [
         {
-            title: "Web-Development",
-            skills: ["React", "HTML", "CSS", "NodeJs", "ExpressJs", "Git & GitHub", "AWS", "PostgreSQL", "Google Firebase", "mySQL", "MongoDB"],
+            title: "Software Development",
+            skills: ["React", "HTML", "CSS", "React Native", "NodeJs", "ExpressJs", "Git & GitHub", "AWS", "PostgreSQL", "Google Firebase", "mySQL", "MongoDB", "Esri Server"],
             imageUrl: webdevImg
         },
         {
