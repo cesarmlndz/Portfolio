@@ -1,4 +1,4 @@
-import React from 'react';
+bimport React from 'react';
 import '../css/Skills.css'
 import webdevImg from '../assets/webdevImg.png'
 import brainImg from '../assets/brainImg.png'
@@ -7,7 +7,7 @@ import JSImg from '../assets/JSImg.png'
 export default function Skills() {    
     const skillSections = [
         {
-            title: "Software Development",
+            title: "Software / Web Development",
             skills: ["React", "HTML", "CSS", "React Native", "NodeJs", "ExpressJs", "Git & GitHub", "AWS", "PostgreSQL", "Google Firebase", "mySQL", "MongoDB", "Esri Server"],
             imageUrl: webdevImg
         },
