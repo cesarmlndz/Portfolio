@@ -21,13 +21,14 @@ export default function Projects() {
             imageURL: findmyroommateImg,
             liveURL: "https://findmyroommate-b2820.web.app/"
         },
-        {
+       /* {
             title: "UNOFLOW WEB3",
             desription: "React web application that splits into two services: NFT Marketplace & Crypto Tracker. Users can browse, track, and purchase the hottest NFT’s and crypto currencies on the market.",
             imageURL: unoflowImg,
             liveURL: "https://unofloweb3.com/"
 
         },
+        */
         {
             title: "Wildfire-AI",
             desription: "Space-Eyes, the company where I interned, will soon be launching Wildfire-AI. This is a wildfire detection and prediction service using advanced machine learning algorithms. My task was to develop a web application for a landing page using HTML, CSS, JavaScript, ChartJs, and Material UI. ",
