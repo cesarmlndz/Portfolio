@@ -7,9 +7,9 @@ export default function Experience() {
       duration: 'Jan 2024 - Present',
       company: 'Space-Eyes',
       title: 'Full Stack Developer',
-      description: 'Operating under the Data Management team developing Full Stack applications. Create end-to-end web applications using React, and utilizing AWS for backend operations, such as querying data, API management, databases and more. Specialized in showcasing results from advanced machine learning algorithms, optimizing data retrieval.',
+      description: 'Operating under the Data Management team developing both Full Stack web and mobile applications. Create end-to-end applications using React and React Native, while utilizing AWS for backend operations, such as querying data, API management, databases and more. Specialized in showcasing results from advanced machine learning algorithms, optimizing data retrieval.',
       skills: [
-        'React', 'JavaScript', 'HTML', 'CSS', 'SQL', 'PostgreSQL', 'Esri Map API', 'AWS Lambda', 'AWS S3', 'AWS API Gateway', 'AWS Cognito',
+        'React', 'JavaScript', 'React Native', 'HTML', 'CSS', 'SQL', 'PostgreSQL', 'Esri Map API', 'AWS Lambda', 'AWS S3', 'AWS API Gateway', 'AWS Cognito',
       ]
     },
     {
