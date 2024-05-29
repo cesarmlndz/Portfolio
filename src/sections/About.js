@@ -1,5 +1,5 @@
 import React from 'react'
-import headshot from '../assets/headshot.png'
+import headshot from '../assets/newheadshot.jpeg'
 import Typewriter from 'typewriter-effect';
 import '../css/About.css';
 import linkedInImg from '../assets/linkedInImg.png';
