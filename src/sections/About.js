@@ -5,12 +5,13 @@ import '../css/About.css';
 import linkedInImg from '../assets/linkedInImg.png';
 import githubImg from '../assets/githubImg.png';
 import pinEmoji from '../assets/pinEmoji.png';
+import outdoorImg from from '../assets/outdoor-image.png';
 
 export default function About() {
   return (
     <div className='about-section' id='jump-to-about'>
         <div className='about-section-intro'>
-            <img className='headshot-img' src={headshot}/>
+            <img className='headshot-img' src={outdoorImg}/>
             <div className='about-section-intro-text'>
                 <h1>Hello, my name is Cesar.</h1>
                 <h1>
