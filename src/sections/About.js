@@ -5,7 +5,7 @@ import '../css/About.css';
 import linkedInImg from '../assets/linkedInImg.png';
 import githubImg from '../assets/githubImg.png';
 import pinEmoji from '../assets/pinEmoji.png';
-import outdoorImg from from '../assets/outdoor-picture.jpeg';
+import outdoorImg from '../assets/outdoor-picture.jpeg';
 
 export default function About() {
   return (
