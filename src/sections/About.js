@@ -11,7 +11,7 @@ export default function About() {
   return (
     <div className='about-section' id='jump-to-about'>
         <div className='about-section-intro'>
-            <img className='headshot-img' src={outdoorImg}/>
+            <img className='headshot-img' src={headshot}/>
             <div className='about-section-intro-text'>
                 <h1>Hello, my name is Cesar.</h1>
                 <h1>
