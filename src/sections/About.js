@@ -7,12 +7,13 @@ import githubImg from '../assets/githubImg.png';
 import pinEmoji from '../assets/pinEmoji.png';
 import outdoorImg from '../assets/outdoor-picture.jpeg';
 import newPic from '../assets/E1AC4582-08C4-4BC2-855D-4105E87847EA.heic';
+import nyPic from '../assets/ny-pic.png';
 
 export default function About() {
   return (
     <div className='about-section' id='jump-to-about'>
         <div className='about-section-intro'>
-            <img className='headshot-img' src={newPic}/>
+            <img className='headshot-img' src={nyPic}/>
             <div className='about-section-intro-text'>
                 <h1>Hello, my name is Cesar.</h1>
                 <h1>
