@@ -31,12 +31,9 @@ export default function About() {
                         .pauseFor(1500)
                         .deleteAll()
                     typewriter.typeString('Programmer.')
-                    .pauseFor(1500)
-                    .deleteAll()
-                    typewriter.typeString('Team-Player.')
                         .pauseFor(1500)
                         .deleteAll()
-                    .start();
+                        .start();
                     }}
                 />
                 </h1>
