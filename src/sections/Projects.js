@@ -13,7 +13,9 @@ export default function Projects() {
             title: "FireWatch",
             desription: "Led development of both the mobile (React Native) and web (React) versions of a revenue earning, subscription-based, SaaS disaster prevention application. It is aimed at predicting and tracking wildfires using advanced machine learning algorithms, satellite imagery, weather data, and more.",
             imageURL: firewatchimg,
-            liveURL: "http://space-eyes.info/#/login"
+            liveURL: "http://space-eyes.info/#/login",
+            appStoreURL: "https://apps.apple.com/us/app/space-eyes/id6498717343",
+            googlePlayURL: "https://play.google.com/store/apps/details?id=com.nativefirewatch&pcampaignid=web_share"
         },
          {
             title: "findmyroommate!",
@@ -33,11 +35,15 @@ export default function Projects() {
                             <p className='project-title'>{project.title}</p>
                             <img src={project.imageURL}/>
                             <p className='project-description'>{project.desription}</p>
-                            {project.liveURL ? 
-                            <a target='_blank' href={project.liveURL}>View live!</a> 
-                            :
-                            <a style={{cursor: "not-allowed", boxShadow: "none",  transform: "none",
-                            animation: "none"}}>Live URL offline</a> }
+                            {project.appStoreURL &&
+                            <a target='_blank' href={project.appStoreURL}>App Store</a> 
+                            }
+                            {project.googlePlayURL &&
+                            <a target='_blank' href={project.googlePlayURL}>Google Play Store</a> 
+                            }
+                            {project.liveURL &&
+                            <a target='_blank' href={project.liveURL}>View live site!</a> 
+                            }
                         </div>
                     )
                 })}
