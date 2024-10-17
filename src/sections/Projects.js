@@ -11,7 +11,7 @@ export default function Projects() {
     const projects = [
         {
             title: "FireWatch",
-            desription: "Led development of both the mobile (React Native) and web (React) versions of a revenue earning, subscription-based, SaaS disaster prevention application. It is aimed at predicting and tracking wildfires using advanced machine learning algorithms, satellite imagery, weather data, and more. The application provides real-time data on active and historical fires, allows users to comment on events and predictions, send out mission critical alerts, and displays information on an interactive 3D map, helping communities stay informed and prepared.",
+            desription: "Led development of both the mobile (React Native) and web (React) versions of a revenue earning, subscription-based, SaaS disaster prevention application. It is aimed at predicting and tracking wildfires using advanced machine learning algorithms, satellite imagery, weather data, and more.",
             imageURL: firewatchimg,
             liveURL: "http://space-eyes.info/#/login"
         },
