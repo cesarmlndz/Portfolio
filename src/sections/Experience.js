@@ -9,7 +9,7 @@ export default function Experience() {
       title: 'Full Stack Developer',
       description: 'Operating under the Data Management team developing both Full Stack web and mobile applications. Create end-to-end applications using React and React Native, while utilizing AWS for backend operations, such as querying data, API management, databases and more. Specialized in showcasing results from advanced machine learning algorithms, optimizing data retrieval.',
       skills: [
-        'React', 'JavaScript', 'React Native', 'HTML', 'CSS', 'SQL', 'PostgreSQL', 'Esri Map API', 'AWS Lambda', 'AWS S3', 'AWS API Gateway', 'AWS Cognito',
+        'React', 'JavaScript', 'React Native', 'HTML', 'CSS', 'SQL', 'PostgreSQL', 'AWS Lambda', 'AWS S3', 'AWS API Gateway', 'AWS Cognito', 'Esri', 'MapBox'
       ]
     },
     {
@@ -18,7 +18,7 @@ export default function Experience() {
       title: 'Software Developer Intern',
       description: 'Developed full-stack web applications on a React frontend that displayed results from advanced machine learning algorithms. Seamlessly integreated the React client-side with a robust AWS cloud backend server, querying data from various databases and authenticating users. As well as developed informational static web pages for future products from the company.',
       skills: [
-        'React', 'JavaScript', 'HTML', 'CSS', 'SQL', 'PostgreSQL', 'Esri Map API', 'AWS API Gateway', 'AWS Cognito', 'AWS Lambda'
+        'React', 'JavaScript', 'HTML', 'CSS', 'SQL', 'PostgreSQL', 'AWS API Gateway', 'AWS Cognito', 'AWS Lambda', 'Esri'
       ]
     }
   ]
