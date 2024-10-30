@@ -6,6 +6,7 @@ import wildfireAIImg from '../assets/wildfireAIImg.png';
 import cesarAIImg from '../assets/cesarAIImg.png'
 import goodnewsimg from '../assets/goodnewsimg.png';
 import firewatchimg from '../assets/firewatchweb.png';
+import seawatchimg from '../assets/seawatch-demo-pic.png';
 import appStoreImg from '../assets/download-on-app-store.png';
 import googlePlayStoreImg from '../assets/download-on-google-play.png';
 import webIcon from '../assets/web-icon.png';
@@ -23,7 +24,7 @@ export default function Projects() {
         {
             title: "SeaWatch",
             desription: "Developer of a revenue earning, subscription-based, SaaS application that delivers AI enabled Maritime Geospatial Intelligence. SeaWatch tracks vessel traffic, manages fleet operations, and monitors port congestion in real time around the globe. Leveraging sensor fusion technology, it enhances detection capabilities by combining multiple data sources, such as satellite imagery and AIS signals. The app supports monitoring vessels within EEZ zones and automatically tracks and reports incidents like rule violations or unusual activity.",
-            imageURL: firewatchimg,
+            imageURL: seawatchimg,
             liveURL: "https://seawatch.space-eyes.com/#/login",
         },
         {
