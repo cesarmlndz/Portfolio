@@ -6,6 +6,8 @@ import wildfireAIImg from '../assets/wildfireAIImg.png';
 import cesarAIImg from '../assets/cesarAIImg.png'
 import goodnewsimg from '../assets/goodnewsimg.png';
 import firewatchimg from '../assets/firewatchweb.png';
+import appStoreImg from '../assets/download-on-app-store.png';
+import googlePlayStoreImg from '../assets/download-on-google-play.png';
 
 export default function Projects() {
     const projects = [
@@ -35,14 +37,18 @@ export default function Projects() {
                             <p className='project-title'>{project.title}</p>
                             <img src={project.imageURL}/>
                             <p className='project-description'>{project.desription}</p>
-                            {project.appStoreURL &&
-                            <a target='_blank' href={project.appStoreURL}>App Store</a> 
-                            }
-                            {project.googlePlayURL &&
-                            <a target='_blank' href={project.googlePlayURL}>Google Play Store</a> 
+                            {(project.appStoreURL && project.googlePlayURL) &&
+                            <div className='project-links'>
+                                <a target='_blank' href={project.appStoreURL}>
+                                    <img src={appStoreImg} className='project-app-link-img'/>
+                                </a> 
+                                <a target='_blank' href={project.googlePlayURL}>
+                                    <img src={googlePlayStoreImg} className='project-app-link-img'/>
+                                </a> 
+                            </div>
                             }
                             {project.liveURL &&
-                            <a target='_blank' href={project.liveURL}>View live site!</a> 
+                            <a target='_blank' href={project.liveURL} className='project-website-link'>View live site!</a> 
                             }
                         </div>
                     )
