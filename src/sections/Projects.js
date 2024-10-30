@@ -16,11 +16,17 @@ export default function Projects() {
             title: "FireWatch",
             desription: "Led development of both the mobile (React Native) and web (React) versions of a revenue earning, subscription-based, SaaS disaster prevention application. It is aimed at predicting and tracking wildfires using advanced machine learning algorithms, satellite imagery, weather data, and more.",
             imageURL: firewatchimg,
-            liveURL: "http://space-eyes.info/#/login",
+            liveURL: "https://space-eyes.info/#/login",
             appStoreURL: "https://apps.apple.com/us/app/space-eyes/id6498717343",
             googlePlayURL: "https://play.google.com/store/apps/details?id=com.nativefirewatch&pcampaignid=web_share"
         },
-         {
+        {
+            title: "SeaWatch",
+            desription: "Developer of a revenue earning, subscription-based, SaaS application that delivers AI enabled Maritime Geospatial Intelligence. SeaWatch tracks vessel traffic, manages fleet operations, and monitors port congestion in real time around the globe. Leveraging sensor fusion technology, it enhances detection capabilities by combining multiple data sources, such as satellite imagery and AIS signals. The app supports monitoring vessels within EEZ zones and automatically tracks and reports incidents like rule violations or unusual activity.",
+            imageURL: firewatchimg,
+            liveURL: "https://seawatch.space-eyes.com/#/login",
+        },
+        {
             title: "findmyroommate!",
             desription: "Full-Stack React and Firebase web application for college students to find roommates easily. Users can connect with others in need of roommates by posting their housing situation on the site.",
             imageURL: findmyroommateImg,
