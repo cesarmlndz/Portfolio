@@ -97,11 +97,6 @@
      .project-description {
         font-size: 0.8rem;
     }
-
-    .project-container a {
-        padding: 0.3rem 3rem;
-        font-size: 0.9rem;
-    }
 }
 
 @media (max-width: 500px) {
