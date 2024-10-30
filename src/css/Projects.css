@@ -69,6 +69,8 @@
     align-items: center;
     gap: 0.7rem;
     padding: 1rem 2rem;
+    border: 1px solid black;
+    border-radius: 5px;
 }
 
 .project-website-link-img {
@@ -78,8 +80,6 @@
 .project-website-link-text {
    font-size: 0.9rem;
    color: black;
-   border: 1px solid black;
-   border-radius: 5px;
 }
 
 @media (max-width: 600px) {
