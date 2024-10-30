@@ -6,6 +6,7 @@ import wildfireAIImg from '../assets/wildfireAIImg.png';
 import cesarAIImg from '../assets/cesarAIImg.png'
 import goodnewsimg from '../assets/goodnewsimg.png';
 import firewatchimg from '../assets/firewatchweb.png';
+import firewatchimg2 from '../assets/firewatch-demo-pic.png';
 import seawatchimg from '../assets/seawatch-demo-pic.png';
 import appStoreImg from '../assets/download-on-app-store.png';
 import googlePlayStoreImg from '../assets/download-on-google-play.png';
@@ -16,7 +17,7 @@ export default function Projects() {
         {
             title: "FireWatch",
             desription: "Led development of both the mobile (React Native) and web (React) versions of a revenue earning, subscription-based, SaaS disaster prevention application. It is aimed at predicting and tracking wildfires using advanced machine learning algorithms, satellite imagery, weather data, and more.",
-            imageURL: firewatchimg,
+            imageURL: firewatchimg2,
             liveURL: "https://space-eyes.info/#/login",
             appStoreURL: "https://apps.apple.com/us/app/space-eyes/id6498717343",
             googlePlayURL: "https://play.google.com/store/apps/details?id=com.nativefirewatch&pcampaignid=web_share"
