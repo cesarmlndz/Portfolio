@@ -60,15 +60,15 @@
 }
 
 .project-app-link-img {
-    width: 20rem;
-    height: 2rem;
+    width: 10rem;
+    height: 1.7rem;
 }
 
 .project-website-link {
     display: flex;
     align-items: center;
     gap: 0.7rem;
-    padding: 1rem 2rem;
+    padding: 0.6rem 2rem;
     border: 1px solid black;
     border-radius: 5px;
 }
@@ -79,6 +79,7 @@
 
 .project-website-link-text {
    font-size: 0.9rem;
+   text-decoration: none; 
    color: black;
 }
 
