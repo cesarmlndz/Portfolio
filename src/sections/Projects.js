@@ -50,10 +50,8 @@ export default function Projects() {
                             }
                             {project.liveURL &&
                             <a target='_blank' href={project.liveURL} className='project-website-link'>
-                                <div>
-                                    <img src={webIcon} className='project-website-link-img'/>
-                                    <p className='project-website-text'>View Live Web Version</p>
-                                </div>
+                                <img src={webIcon} className='project-website-link-img'/>
+                                <p className='project-website-text'>View Live Web Version</p>
                             </a> 
                             }
                         </div>
