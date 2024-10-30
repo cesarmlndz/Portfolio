@@ -53,7 +53,19 @@
     color: rgb(78, 78, 78)
 }
 
-.project-container a {
+.project-links {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.project-app-link-img {
+    width: 20rem;
+    height: 2rem;
+}
+
+.project-website-link {
     margin-top: 1rem;
     padding: 0.3rem 6rem;
     text-decoration: none;
