@@ -69,16 +69,15 @@
     align-items: center;
     gap: 0.7rem;
     padding: 0.6rem 2rem;
-    border: 1px solid black;
-    border-radius: 5px;
+    text-decoration: none;
 }
 
 .project-website-link-img {
-   width: 2rem;
+   width: 1.3rem;
 }
 
 .project-website-link-text {
-   font-size: 0.9rem;
+   font-size: 0.7rem;
    text-decoration: none; 
    color: black;
 }
