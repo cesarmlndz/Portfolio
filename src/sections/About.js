@@ -1,19 +1,16 @@
 import React from 'react'
-import headshot from '../assets/newheadshot.jpeg'
 import Typewriter from 'typewriter-effect';
 import '../css/About.css';
 import linkedInImg from '../assets/linkedInImg.png';
 import githubImg from '../assets/githubImg.png';
 import pinEmoji from '../assets/pinEmoji.png';
-import outdoorImg from '../assets/outdoor-picture.jpeg';
-import newPic from '../assets/E1AC4582-08C4-4BC2-855D-4105E87847EA.heic';
-import nyPic from '../assets/ny-pic.png';
+import headshot from '../assets/ny-pic.png';
 
 export default function About() {
   return (
     <div className='about-section' id='jump-to-about'>
         <div className='about-section-intro'>
-            <img className='headshot-img' src={nyPic}/>
+            <img className='headshot-img' src={headshot}/>
             <div className='about-section-intro-text'>
                 <h1>Hello, my name is Cesar.</h1>
                 <h1>
