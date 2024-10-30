@@ -8,6 +8,7 @@ import goodnewsimg from '../assets/goodnewsimg.png';
 import firewatchimg from '../assets/firewatchweb.png';
 import appStoreImg from '../assets/download-on-app-store.png';
 import googlePlayStoreImg from '../assets/download-on-google-play.png';
+import webIcon from '../assets/web-icon.png';
 
 export default function Projects() {
     const projects = [
@@ -48,7 +49,12 @@ export default function Projects() {
                             </div>
                             }
                             {project.liveURL &&
-                            <a target='_blank' href={project.liveURL} className='project-website-link'>View live site!</a> 
+                            <a target='_blank' href={project.liveURL} className='project-website-link'>
+                                <div>
+                                    <img src={webIcon} className='project-website-link-img'/>
+                                    <p className='project-website-text'>View Live Web Version</p>
+                                </div>
+                            </a> 
                             }
                         </div>
                     )
