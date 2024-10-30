@@ -36,7 +36,7 @@ export default function Projects() {
                     return (
                         <div className='project-container' key={index}>
                             <p className='project-title'>{project.title}</p>
-                            <img src={project.imageURL}/>
+                            <img src={project.imageURL} className='project-demo-img'/>
                             <p className='project-description'>{project.desription}</p>
                             {(project.appStoreURL && project.googlePlayURL) &&
                             <div className='project-links'>
