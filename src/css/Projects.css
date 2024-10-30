@@ -35,7 +35,6 @@
 
 .project-container:hover {
     outline: 1px solid gray;
-
 }
 
 .project-container img {
@@ -66,14 +65,21 @@
 }
 
 .project-website-link {
-    margin-top: 1rem;
-    padding: 0.3rem 6rem;
-    text-decoration: none;
-    color: black;
-    border: 1px solid black;
-    box-shadow: 0 0 0 0 rgba(0, 0, 0, 1);
-    transform: scale(1);
-    animation: pulse 2s infinite;
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+    padding: 1rem 2rem;
+}
+
+.project-website-link-img {
+   width: 2rem
+}
+
+.project-website-link-text {
+   font-size: 0.9rem;
+   color: black;
+   border: 1px solid black;
+   border-radius: 5px;
 }
 
 @media (max-width: 600px) {
