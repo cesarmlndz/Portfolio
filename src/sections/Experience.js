@@ -9,7 +9,7 @@ export default function Experience() {
       title: 'Full Stack Developer',
       description: 'Operating under the Data Management team developing both Full Stack web and mobile applications. Create end-to-end applications using React and React Native, while utilizing AWS for backend operations, such as querying data, API management, databases and more. Specialized in showcasing results from advanced machine learning algorithms, optimizing data retrieval.',
       skills: [
-        'React', 'JavaScript', 'React Native', 'HTML', 'CSS', 'SQL', 'PostgreSQL', 'AWS Lambda', 'AWS S3', 'AWS API Gateway', 'AWS Cognito', 'Esri', 'MapBox'
+        'React', 'JavaScript', 'React Native', 'AWS Lambda', 'AWS S3', 'AWS API Gateway', 'AWS Cognito', 'Python', 'Jupyter', 'HTML', 'CSS', 'SQL', 'PostgreSQL', 'Esri', 'MapBox'
       ]
     },
     {
