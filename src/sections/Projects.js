@@ -24,7 +24,7 @@ export default function Projects() {
         },
         {
             title: "SeaWatch",
-            desription: "Developer of a revenue earning, subscription-based, SaaS application that delivers AI enabled Maritime Geospatial Intelligence. SeaWatch tracks vessel traffic, manages fleet operations, and monitors port congestion in real time around the globe. Leveraging sensor fusion technology, it enhances detection capabilities by combining multiple data sources, such as satellite imagery and AIS signals. The app supports monitoring vessels within EEZ zones and automatically tracks and reports incidents like rule violations or unusual activity.",
+            desription: "Developer of a revenue earning, subscription-based, SaaS application that tracks vessel traffic, manages fleet operations, and monitors port congestion in real time around the globe. Leveraging sensor fusion technology, it enhances detection capabilities by combining multiple data sources, such as satellite imagery and AIS signals.",
             imageURL: seawatchimg,
             liveURL: "https://seawatch.space-eyes.com/#/login",
         },
