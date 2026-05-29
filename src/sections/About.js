@@ -42,7 +42,8 @@ export default function About() {
             </div>
         </div> 
        <a href='#jump-to-experience' className='about-section-view-work-btn'>
-            View my work!
+            <span className='view-work-label'>View my work</span>
+            <span className='view-work-arrow' aria-hidden='true'>→</span>
        </a>
   </div>
   )
