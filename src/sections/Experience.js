@@ -4,46 +4,45 @@ import '../css/Experience.css'
 export default function Experience() {
   const experiences = [
     {
-      duration: 'Jan 2024 - Present',
-      company: 'Space-Eyes',
+      duration: 'April 2025 - Present',
+      company: 'Space-Eyes Inc.',
+      title: 'Software Engineer Lead',
+      description: "Leading a team of Full Stack engineers shipping the company's flagship platforms end-to-end. Architect and develop across React, Tauri (Rust), and React Native iOS/Android apps; Python and Node.js backends; and AWS, PostgreSQL, and Azure cloud infrastructure with real-time data pipelines, WebSocket streams, and REST APIs powering the dashboards. Set technical direction, conduct code reviews, and own delivery from backend services through to user-facing applications."
+    },
+    {
+      duration: 'Jan 2024 - April 2025',
+      company: 'Space-Eyes Inc.',
       title: 'Full Stack Developer',
-      description: 'Operating under the Data Management team developing both Full Stack web and mobile applications. Create end-to-end applications using React and React Native, while utilizing AWS for backend operations, such as querying data, API management, databases and more. Specialized in showcasing results from advanced machine learning algorithms, optimizing data retrieval.',
-      skills: [
-        'React', 'JavaScript', 'React Native', 'AWS Lambda', 'AWS S3', 'AWS API Gateway', 'AWS Cognito', 'Python', 'Jupyter', 'HTML', 'CSS', 'SQL', 'PostgreSQL', 'Esri', 'MapBox'
-      ]
+      description: 'Operated under the Data Management team developing Full Stack applications. Create end-to-end web applications using React, utilizing AWS for backend operations, such as querying data, API management, databases and more. Specialized in showcasing results from advanced machine learning algorithms, optimizing data retrieval.'
     },
     {
       duration: 'May 2023 - July 2023',
-      company: 'Space-Eyes',
+      company: 'Space-Eyes Inc.',
       title: 'Software Developer Intern',
-      description: 'Developed full-stack web applications on a React frontend that displayed results from advanced machine learning algorithms. Seamlessly integreated the React client-side with a robust AWS cloud backend server, querying data from various databases and authenticating users. As well as developed informational static web pages for future products from the company.',
-      skills: [
-        'React', 'JavaScript', 'HTML', 'CSS', 'SQL', 'PostgreSQL', 'AWS API Gateway', 'AWS Cognito', 'AWS Lambda', 'Esri'
-      ]
+      description: 'Developed Full-Stack web applications on a React frontend that displayed results from advanced machine learning algorithms. Seamlessly integrated the React client-side with a robust AWS cloud backend server, querying data from various databases and authenticating users. As well as developed informational static web pages for future products from the company.'
     }
   ]
   return (
     <div className='experience-section' id='jump-to-experience'>
         <h1 className='experience-section-title'>Experience</h1>
-        {experiences.map((experience) => {
-          return (
-            <div className='position-container'>
-            <h1 className='position-duration'>{experience.duration}</h1>
-            <div className='position-info'>
-                <p className='position-company'>{experience.company}</p>
-                <p className='position-title'>{experience.title}</p>
-                <p className='position-description'>{experience.description}</p>
-                <div className='position-skills'>
-                    {experience.skills.map((skill) => {
-                      return (
-                        <p>{skill}</p>
-                      )
-                    })}
+        <ol className='experience-timeline'>
+          {experiences.map((experience, index) => {
+            return (
+              <li className='timeline-item' key={index}>
+                <span className='timeline-marker' aria-hidden='true' />
+                <div className='timeline-content'>
+                  <p className='timeline-duration'>{experience.duration}</p>
+                  <h2 className='timeline-title'>
+                    {experience.title}
+                    <span className='timeline-separator'> · </span>
+                    <span className='timeline-company'>{experience.company}</span>
+                  </h2>
+                  <p className='timeline-description'>{experience.description}</p>
                 </div>
-            </div>
-        </div>
-          )
-        })}
+              </li>
+            )
+          })}
+        </ol>
     </div>
   )
 }

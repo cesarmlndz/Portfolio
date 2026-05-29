@@ -38,7 +38,6 @@ export default function About() {
                 Passionate software developer with real-world experience in creating full-stack applications.</p>
                 <div className='social-links'>
                     <a href='https://linkedin.com/in/cesar-melendez-16b3b01b8' target='_blank'><img src={linkedInImg}/></a>
-                    <a href='https://github.com/cesarmlndz' target='_blank'><img src={githubImg}/></a>
                 </div>
             </div>
         </div> 
