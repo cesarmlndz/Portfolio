@@ -2,7 +2,6 @@ import React from 'react'
 import Typewriter from 'typewriter-effect';
 import '../css/About.css';
 import linkedInImg from '../assets/linkedInImg.png';
-import githubImg from '../assets/githubImg.png';
 import pinEmoji from '../assets/pinEmoji.png';
 import headshot from '../assets/ny-pic.png';
 
@@ -10,7 +9,7 @@ export default function About() {
   return (
     <div className='about-section' id='jump-to-about'>
         <div className='about-section-intro'>
-            <img className='headshot-img' src={headshot}/>
+            <img className='headshot-img' src={headshot} alt='Cesar Melendez headshot'/>
             <div className='about-section-intro-text'>
                 <h1>Hello, my name is Cesar.</h1>
                 <h1>
@@ -34,10 +33,10 @@ export default function About() {
                     }}
                 />
                 </h1>
-                <p>Originally from San Juan, Puerto Rico | Based in Miami, Florida <img src={pinEmoji} className='pin-emoji'/> <br></br>
+                <p>Originally from San Juan, Puerto Rico | Based in Miami, Florida <img src={pinEmoji} className='pin-emoji' alt=''/> <br></br>
                 Passionate software developer with real-world experience in creating full-stack applications.</p>
                 <div className='social-links'>
-                    <a href='https://linkedin.com/in/cesar-melendez-16b3b01b8' target='_blank'><img src={linkedInImg}/></a>
+                    <a href='https://linkedin.com/in/cesar-melendez-16b3b01b8' target='_blank' rel='noreferrer'><img src={linkedInImg} alt='LinkedIn'/></a>
                 </div>
             </div>
         </div> 

@@ -14,10 +14,10 @@ export default function Navbar() {
             <a href='#jump-to-skills'>skills</a>
             <a href='#jump-to-contact'>contact</a> 
         </div>
-        {!showLinks && <img src={menuimg} onClick={() => setShowLinks(true)}/>}
+        {!showLinks && <img src={menuimg} alt='Open menu' onClick={() => setShowLinks(true)}/>}
         {showLinks &&
           <div className='expanded-links-container'>
-            <img src={ximg} onClick={() => setShowLinks(false)}/>
+            <img src={ximg} alt='Close menu' onClick={() => setShowLinks(false)}/>
             <a href='#jump-to-experience' onClick={() => setShowLinks(false)}>experience</a>
             <a href='#jump-to-projects' onClick={() => setShowLinks(false)}>projects</a>
             <a href='#jump-to-skills' onClick={() => setShowLinks(false)}>skills</a>
