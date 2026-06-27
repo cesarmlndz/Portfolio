@@ -8,16 +8,24 @@ export default function Skills() {
             skills: ["JavaScript", "TypeScript", "Python", "Java", "Swift", "Kotlin", "Rust", "C++", "C", "SQL"]
         },
         {
-            title: "Stack",
-            skills: ["React", "React Native", "Tauri", "Node.js", "Express", "REST", "WebSockets", "HTML", "CSS", "Mapbox"]
+            title: "Frontend",
+            skills: ["React", "React Native", "Tauri", "HTML", "CSS", "Mapbox"]
         },
         {
-            title: "Cloud, Data & ML",
-            skills: ["AWS Lambda", "AWS API Gateway", "AWS S3", "AWS Cognito", "Azure ML", "Firebase", "PostgreSQL", "MySQL", "MongoDB", "Linux", "Git", "PyTorch", "TensorFlow", "Keras", "Scikit-learn", "Pandas", "NumPy", "Jupyter"]
+            title: "Backend & APIs",
+            skills: ["PostgreSQL", "MySQL", "Node.js", "Express", "FastAPI", "REST", "WebSockets", "MongoDB", "Esri Server", "Railway"]
+        },
+        {
+            title: "Cloud & DevOps",
+            skills: ["AWS Lambda", "AWS API Gateway", "AWS EC2", "AWS S3", "AWS Cognito", "Azure", "Firebase", "Linux", "Git"]
+        },
+        {
+            title: "ML & Data",
+            skills: ["PyTorch", "Scikit-learn", "Pandas", "NumPy", "Jupyter"]
         },
         {
             title: "Other",
-            skills: ["Leadership", "Bilingual (English/Spanish)"]
+            skills: ["Bilingual (English/Spanish)", "Client & Investor Relations", "Technical Demos", "Cross-functional Leadership"]
         }
     ];
 

@@ -33,8 +33,15 @@ export default function About() {
                     }}
                 />
                 </h1>
-                <p>Originally from San Juan, Puerto Rico | Based in Miami, Florida <img src={pinEmoji} className='pin-emoji' alt=''/> <br></br>
-                Passionate software developer with real-world experience in creating full-stack applications.</p>
+                <p className='about-location'>
+                    <span className='about-location-item'>
+                        <img src={pinEmoji} className='pin-emoji' alt=''/>
+                        Originally from San Juan, Puerto Rico
+                    </span>
+                    <span className='about-location-divider' aria-hidden='true'>·</span>
+                    <span className='about-location-item'>Based in Miami, Florida</span>
+                </p>
+                <p className='about-bio'>Lead Software Engineer and early team member at a defense/AI startup, built and shipped platforms end-to-end and led a team of engineers, while owning investor, client, and partner relationships and live demos for the enterprise clients and U.S. military.</p>
                 <div className='social-links'>
                     <a href='https://linkedin.com/in/cesar-melendez-16b3b01b8' target='_blank' rel='noreferrer'><img src={linkedInImg} alt='LinkedIn'/></a>
                 </div>
