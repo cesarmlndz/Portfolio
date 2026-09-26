@@ -2,12 +2,14 @@ import React from 'react';
 import '../css/Projects.css';
 import firewatchimg2 from '../assets/firewatch-demo-pic.png';
 import morpheusimg from '../assets/morpheus.png';
+import tempoimg from '../assets/tempo.png';
 
 export default function Projects() {
     const projects = [
         {
             title: "Morpheus™",
             imageURL: morpheusimg,
+            link: "https://space-eyes.com",
             overview: "Counter-UAS platform that detects, classifies, and mitigates drones in real time, integrated with U.S. Army C2 systems.",
             built: [
                 "Full Stack React + Tauri (Rust) dashboard",
@@ -24,6 +26,7 @@ export default function Projects() {
         {
             title: "FireWatch™",
             imageURL: firewatchimg2,
+            link: "https://space-eyes.com",
             overview: "Revenue-earning AI-powered global wildfire monitoring platform that predicts ignition points, tracks active fires in real time, and simulates spread based on terrain and weather.",
             built: [
                 "React web dashboard and React Native iOS and Android apps",
@@ -37,6 +40,24 @@ export default function Projects() {
                 "Emergency-services integrations dispatching fire trucks directly from the app",
             ],
         },
+        {
+            title: "Tempo",
+            imageURL: tempoimg,
+            link: "https://www.tempo-music-app.com",
+            overview: "Social music app built around a single daily song, users share one track that captures their mood and discover what friends and people worldwide are listening to on an interactive globe.",
+            built: [
+                "React Native (Expo) app built for iOS and Android",
+                "Clerk authentication with Google and Apple sign-in",
+                "Railway-hosted backend serving the REST APIs and a managed SQL database",
+                "Interactive 3D globe surfacing daily song shares in real time across countries",
+                "Push notifications via Expo Application Services",
+            ],
+            achievements: [
+                "Live on the App Store",
+                "150+ downloads with no marketing spend",
+                "500+ Tempos (daily song posts) shared by users",
+            ],
+        },
     ]
 
     return (
@@ -46,10 +67,12 @@ export default function Projects() {
                 {projects.map((project, index) => {
                     const reverse = index % 2 === 0;
                     return (
-                        <div className={`project-row${reverse ? ' project-row--reverse' : ''}`} key={index}>
-                            <a href='https://space-eyes.com' target='_blank' rel='noreferrer' className='project-image-wrap'>
-                                <img src={project.imageURL} className='project-demo-img' alt={project.title}/>
-                            </a>
+                        <div className={`project-row${reverse ? ' project-row--reverse' : ''}${project.imageURL ? '' : ' project-row--no-image'}`} key={index}>
+                            {project.imageURL && (
+                                <a href={project.link} target='_blank' rel='noreferrer' className='project-image-wrap'>
+                                    <img src={project.imageURL} className='project-demo-img' alt={project.title}/>
+                                </a>
+                            )}
                             <div className='project-content'>
                                 <h2 className='project-title'>{project.title}</h2>
                                 <p className='project-overview'>{project.overview}</p>

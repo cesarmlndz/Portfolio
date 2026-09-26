@@ -40,6 +40,11 @@
     order: 1;
 }
 
+.project-row--no-image,
+.project-row--reverse.project-row--no-image {
+    grid-template-columns: 1fr;
+}
+
 .project-image-wrap {
     display: block;
     cursor: pointer;

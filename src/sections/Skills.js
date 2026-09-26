@@ -5,15 +5,15 @@ export default function Skills() {
     const skillSections = [
         {
             title: "Languages",
-            skills: ["JavaScript", "TypeScript", "Python", "Java", "Swift", "Kotlin", "Rust", "C++", "C", "SQL"]
+            skills: ["JavaScript", "TypeScript", "Python", "Ruby", "Java", "Swift", "Kotlin", "Rust", "C++", "C", "SQL"]
         },
         {
             title: "Frontend",
-            skills: ["React", "React Native", "Tauri", "HTML", "CSS", "Mapbox"]
+            skills: ["React", "React Native", "Vue", "Pinia", "Tauri", "HTML", "CSS", "Mapbox"]
         },
         {
             title: "Backend & APIs",
-            skills: ["PostgreSQL", "MySQL", "Node.js", "Express", "FastAPI", "REST", "WebSockets", "MongoDB", "Esri Server", "Railway"]
+            skills: ["PostgreSQL", "MySQL", "Node.js", "Express", "Ruby on Rails", "FastAPI", "REST", "WebSockets", "MongoDB", "Esri Server", "Railway"]
         },
         {
             title: "Cloud & DevOps",

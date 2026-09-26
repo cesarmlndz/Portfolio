@@ -4,7 +4,17 @@ import '../css/Experience.css'
 export default function Experience() {
   const experiences = [
     {
-      duration: 'April 2025 - Present',
+      duration: 'August 2026 - Present',
+      company: 'Corporate Tools',
+      title: 'Software Engineer',
+      points: [
+        "Design and build high-traffic web applications in Ruby on Rails and JavaScript, contributing across features, bug fixes, and larger project workstreams.",
+        "Work with AWS infrastructure (ECS, EC2, S3, RDS) and Docker-based CI/CD pipelines supporting secure, e-commerce-facing systems.",
+        "Manage relational and document databases with PostgreSQL and MongoDB, designing schemas and tuning queries that back high-traffic application features.",
+      ]
+    },
+    {
+      duration: 'April 2025 - June 2026',
       company: 'Space-Eyes Inc.',
       title: 'Lead Software Engineer',
       points: [

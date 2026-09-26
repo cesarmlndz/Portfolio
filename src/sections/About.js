@@ -34,14 +34,10 @@ export default function About() {
                 />
                 </h1>
                 <p className='about-location'>
-                    <span className='about-location-item'>
-                        <img src={pinEmoji} className='pin-emoji' alt=''/>
-                        Originally from San Juan, Puerto Rico
-                    </span>
-                    <span className='about-location-divider' aria-hidden='true'>·</span>
-                    <span className='about-location-item'>Based in Miami, Florida</span>
+                    <img src={pinEmoji} className='pin-emoji' alt=''/>
+                    Originally from San Juan, Puerto Rico, based in Miami, Florida
                 </p>
-                <p className='about-bio'>Lead Software Engineer and early team member at a defense/AI startup, built and shipped platforms end-to-end and led a team of engineers, while owning investor, client, and partner relationships and live demos for the enterprise clients and U.S. military.</p>
+                <p className='about-bio'>Software engineer specializing in Full-Stack Development and AI, with a continued focus on learning emerging technologies and broadening my technical expertise.</p>
                 <div className='social-links'>
                     <a href='https://linkedin.com/in/cesar-melendez-16b3b01b8' target='_blank' rel='noreferrer'><img src={linkedInImg} alt='LinkedIn'/></a>
                 </div>
