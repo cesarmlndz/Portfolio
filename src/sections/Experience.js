@@ -8,7 +8,7 @@ export default function Experience() {
       company: 'Corporate Tools',
       title: 'Software Engineer',
       points: [
-        "Design and build high-traffic web applications in Ruby on Rails and JavaScript, contributing across features, bug fixes, and larger project workstreams.",
+        "Design and build high-traffic web applications in Ruby on Rails, Vue.js, and vanilla JavaScript, contributing across features, bug fixes, and larger project workstreams.",
         "Work with AWS infrastructure (ECS, EC2, S3, RDS) and Docker-based CI/CD pipelines supporting secure, e-commerce-facing systems.",
         "Manage relational and document databases with PostgreSQL and MongoDB, designing schemas and tuning queries that back high-traffic application features.",
       ]
